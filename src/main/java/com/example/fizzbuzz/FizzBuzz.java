@@ -9,8 +9,7 @@ public class FizzBuzz {
      * @throws IllegalArgumentException if n <= 0
      */
     public static String fizzBuzz(int n) {
-
-        return Integer.toString(n);
+        return null;
     }
 
     // prevent instantiation

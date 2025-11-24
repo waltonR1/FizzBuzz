@@ -24,7 +24,7 @@ jobs:
           cache-dependency-path: pom.xml
 
       - name: Build with Maven (run only fizzbuzz.feature)
-        run: mvn -B -V -T 1C -Dcucumber.filter.uri=classpath:features/fizzbuzz.feature -Dcucumber.plugin=json:target/cucumber-reports/cucumber.json clean test
+        run: mvn -B -V -T 1C -Dcucumber.filter.uri=file:src/test/resources/features/fizzbuzz.feature -Dcucumber.plugin=json:target/cucumber-reports/cucumber.json clean test
 
       - name: Upload test reports
         if: always()
