@@ -1,0 +1,54 @@
+# Maven
+/target/
+
+# Eclipse/IntelliJ/VSCode
+/.idea/
+*.iml
+*.ipr
+*.iws
+/.classpath
+/.project
+/.settings/
+/.vscode/
+
+# macOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# OS files
+Thumbs.db
+
+# Build tools
+.gradle/
+
+# Java
+*.class
+
+# Maven local repository (if ever added accidentally)
+/.m2/
+
+# Distribution
+*.jar
+*.war
+*.ear
+
+# Temporary
+*.tmp
+*.swp
+
+# Test reports
+/target/surefire-reports/
+/target/cucumber-reports/
+
+# IntelliJ workspace
+out/
+
+# Environment files
+.env
+
+# Other
+coverage/
+
