@@ -12,9 +12,7 @@ public class FizzBuzz {
         if (n <= 0) {
             throw new IllegalArgumentException("n must be a positive integer");
         }
-        if (n % 15 == 0) {
-            return "FizzBuzz";
-        }
+
         if (n % 3 == 0) {
             return "Fizz";
         }
